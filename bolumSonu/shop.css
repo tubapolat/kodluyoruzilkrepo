@@ -1,0 +1,24 @@
+.image-size-200 {
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+    padding: 10px;
+    font-size: medium;
+    border: #FF65A5 solid 5px;
+    max-width: 220px;
+    display: inline-block;
+}
+
+h1 {
+    color: brown;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
