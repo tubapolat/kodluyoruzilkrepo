@@ -1,0 +1,47 @@
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 351px;
+        height: 113px;
+    }
+    
+    table {
+        border-collapse: separate;
+        border: none;
+        width: 100%;
+        padding: 0 70px 0 70px;
+        height: 10px;
+    }
+    
+    .search-box {
+        background-color: #eee;
+        text-align: center;
+    }
+    
+    .link-box {
+        background-color: #7EE5DA;
+        width: 35%;
+        text-align: center;
+    }
+    
+    .google-links {
+        background-color: #7EE5DA;
+        width: 20%;
+        text-align: center;
+        font-size: small;
+    }
+    
+    .contact {
+        background-color: #7EE5DA;
+        font-size: small;
+        font-style: normal;
+        text-align: center;
+        width: 45%;
+    }
+    
+    .copyright {
+        font-size: small;
+        text-align: center;
+    }
