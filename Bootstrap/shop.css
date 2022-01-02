@@ -1,0 +1,15 @@
+.image-size-200 {
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: brown;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
