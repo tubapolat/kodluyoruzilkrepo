@@ -1,0 +1,45 @@
+a {
+    text-decoration: none;
+}
+
+.story-text {
+    text-align: center;
+    font-size: smaller;
+    width: 56px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.story-link {
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-grid;
+}
+
+.follows-you {
+    font-size: smaller;
+    color: gray;
+    display: block;
+}
+
+.follow {
+    font-size: smaller;
+    font-weight: 600;
+    text-align: right;
+}
+
+.account-name {
+    font-size: smaller;
+    color: gray;
+    width: 140px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.username {
+    font-weight: 600;
+    color: #484848;
+    font-size: 14px;
+}
