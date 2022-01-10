@@ -43,3 +43,13 @@ a {
     color: #484848;
     font-size: 14px;
 }
+
+.md-3-sticky-top {
+    align-self: flex-start;
+}
+
+.post-icon {
+    color: black;
+    position: relative;
+    font-size: 23px;
+}
