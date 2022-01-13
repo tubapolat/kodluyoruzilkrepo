@@ -2,6 +2,6 @@
 
 I designed instagram page with Bootstrap as an assigment of my web development bootcamp.
 
-![GitHub](https://raw.githubusercontent.com/tubapolat/kodluyoruzilkrepo/InstagramProject/img/screenShots/first.png)
+![GitHub](https://github.com/tubapolat/kodluyoruzilkrepo/blob/main/InstagramProject/img/screenShots/first.png?raw=true)
 
-![GitHub](https://raw.githubusercontent.com/tubapolat/kodluyoruzilkrepo/InstagramProject/img/screenShots/second.png)
+![GitHub](https://github.com/tubapolat/kodluyoruzilkrepo/blob/main/InstagramProject/img/screenShots/second.png?raw=true)
