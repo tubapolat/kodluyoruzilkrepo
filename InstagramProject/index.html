@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!doctype html>
     <html lang="en">
@@ -40,11 +39,10 @@
             </div>
             <div class="collapse navbar-collapse">
                 <form class="d-flex">
-                    <input class="ms-5 form-control me-2" type="search" placeholder="&#x1f50d;&#xFE0E; search" aria-label="Search" style="font-family: Arial; font-style: normal; height: 28px; width: 268px; text-align: center;">
-
+                    <input class="ms-5 form-control me-2" type="search" placeholder="&#x1f50d;&#xFE0E; Search" aria-label="Search" style="font-family: Arial; font-style: normal;font-weight: 100; height: 28px; width: 268px; text-align: left; ">
                 </form>
             </div>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse d-sm-none .d-md-block">
                 <ul class=" me-2 d-flex nav justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="#">
@@ -62,17 +60,22 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ">
+                        <a class="nav-link " href="#">
                             <i class="far fa-heart fa-lg mr-2 mt-1" style="color: black"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">
+                            <img src="img/fr.jpg" style="border-radius: 50%; width: 25px;" alt="Fribio">
                         </a>
                     </li>
                 </ul>
             </div>
-
         </nav>
         <div class="container middlearea">
             <div class="row" style="margin: 30px 80px;">
                 <div class="col-8">
+                    <!--story start-->
                     <div class="card mt-5">
                         <div class="card-body">
                             <a href="#" class="story-link">
@@ -91,10 +94,11 @@
                                 <img src="img/mic.jpg" style="border-radius: 50%; width: 56px;" alt="microsoft">
                                 <span class="story-text">microsoft</span>
                             </a>
-
-
                         </div>
                     </div>
+                    <!--story end-->
+
+                    <!--post start-->
                     <div class="card mt-4">
                         <div class="card-header" style="background-color: white;">
 
@@ -104,7 +108,6 @@
                                 <i class="fas fa-ellipsis-h " style="color:#484848;font-size: 14px;
                                 font-weight: 600; "></i>
                             </a>
-
                         </div>
                         <img src="img/ybpost.jpg" alt="ybpost">
                         <ul class="list-group list-group-horizontal mt-1" style="list-style-type: none; border-style: none;">
@@ -144,7 +147,6 @@
                             <input class=" form-control " type="comment" placeholder="Add a comment..." aria-label="comment" style="font-family: Arial; font-style: normal; height: 28px; width: 80%;border: none;">
                             <a style="color: lightblue; width: 20%; text-align: right;" href="#">Post</a>
                         </div>
-
                     </div>
                     <div class="card mt-4">
                         <div class="card-header" style="background-color: white;">
@@ -155,7 +157,6 @@
                                 <i class="fas fa-ellipsis-h " style="color:#484848;font-size: 14px;
                                 font-weight: 600; "></i>
                             </a>
-
                         </div>
                         <img src="img/mittechpost.jpg" alt="mitpost">
                         <ul class="list-group list-group-horizontal mt-1" style="list-style-type: none; border-style: none;">
@@ -178,8 +179,8 @@
                         <div class="card-body">
                             <a href="#" style="color: #484848; font-weight: 600;">340,456 likes</a>
                             <div class="card-text">
-                                <span style="font-size: 14px;"> <a class="username" href="#">technologyreview</a>Introducing
-                                The Water Issue </span>
+                                <a class="username" href="#">technologyreview</a>
+                                <span style="font-size: 14px;"> Introducing The Water Issue </span>
                                 <br>
                                 <a style="color: gray;" href="#">View all 102 comment</a>
                                 <br>
@@ -188,13 +189,20 @@
                                 <br>
                                 <a class="username" href="#">myblackbltjourney</a>
                                 <span style="font-size:14px"> Around the world, the effects of climate change are being
-                                written in water. Droughts,
-                                flooding, and sea level rise are changing our lives. </span>
+                                written in water. Droughts, flooding, and sea level rise are changing our lives. </span>
                             </div>
                         </div>
+                        <div class="card-footer" style="background-color: white;display: flex;">
+
+                            <input class=" form-control " type="comment" placeholder="Add a comment..." aria-label="comment" style="font-family: Arial; font-style: normal; height: 28px; width: 80%;border: none;">
+                            <a style="color: lightblue; width: 20%; text-align: right;" href="#">Post</a>
+                        </div>
                     </div>
+                    <!--post end-->
                 </div>
-                <div class="col-4">
+
+                <!--fixed aside start-->
+                <div class="col-4 d-none d-md-block">
                     <div class="card mt-5 position-fixed">
                         <div class="card-body " style="width: 300px;">
                             <div class="row">
@@ -219,7 +227,7 @@
                                 <div class="col-3">
                                     <a href="#" style="font-weight: 600; color: black;font-size: smaller;">See all</a>
                                 </div>
-                                <!--Profiles start-->
+                                <!--suggested profiles start-->
                                 <div class="mt-2"></div>
                                 <div class="col-2">
                                     <img src="img/tubik.jpg" style="border-radius: 50%; width: 40px;" alt="">
@@ -267,16 +275,31 @@
                                 <div class="col-3">
                                     <a href="#" class="follow">Follow</a>
                                 </div>
+                                <!--suggested profiles end-->
+                            </div>
+                            <div class="row mt-3">
+                                <span>
 
-
-                                <!--Profiles end-->
-
+                                <a class="footer-link" href="https://about.instagram.com/">About &#xB7;</a>
+                                <a class="footer-link" href="https://about.instagram.com/">Help &#xB7;</a>
+                                <a class="footer-link" href="https://about.instagram.com/en_US/blog">Press &#xB7;</a>
+                                <a class="footer-link" href="https://developers.facebook.com/docs/instagram">API &#xB7;</a>
+                                <a class="footer-link" href="https://about.instagram.com/about-us/careers">Jobs &#xB7;</a>
+                                <a class="footer-link" href="https://help.instagram.com/519522125107875">Privacy &#xB7;</a>
+                                <a class="footer-link" href="https://help.instagram.com/581066165581870">Terms &#xB7;</a>
+                                <a class="footer-link" href="https://www.instagram.com/explore/locations/">Locations &#xB7;</a>
+                                <a class="footer-link" href="https://www.instagram.com/directory/profiles/">Top accounts &#xB7;</a>
+                                <a class="footer-link" href="https://www.instagram.com/directory/hashtags/">Hastags &#xB7;</a>
+                                <a class="footer-link" href="#">Language</a>
+                            </span>
+                                <span style="color: #c7c7c7; font-size: 12px;">© 2022 INSTAGRAM FROM META</span>
                             </div>
 
                             <!--profile suggestion end-->
                         </div>
                     </div>
                 </div>
+                <!--fixed aside end-->
             </div>
         </div>
 

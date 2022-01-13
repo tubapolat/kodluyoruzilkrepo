@@ -53,3 +53,8 @@ a {
     position: relative;
     font-size: 23px;
 }
+
+.footer-link {
+    color: #c7c7c7;
+    font-size: 11px;
+}
