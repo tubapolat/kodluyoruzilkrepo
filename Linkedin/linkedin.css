@@ -3,3 +3,13 @@ input {
     margin-left: 10px;
     border-radius: 10px;
 }
+
+i {
+    color: grey;
+    width: 50px;
+    font-size: 22px;
+}
+
+.active {
+    color: black;
+}
