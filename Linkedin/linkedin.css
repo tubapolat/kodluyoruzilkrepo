@@ -10,6 +10,31 @@ i {
     font-size: 22px;
 }
 
+li {
+    border: none !important;
+}
+
 .active {
     color: black;
+}
+
+a {
+    text-decoration: none !important;
+    color: #717171 !important;
+}
+
+.share-post-icon {
+    width: 30px;
+}
+
+.share-post-input {
+    background-color: #EEF3F8;
+    border-radius: 25px;
+    height: 50px;
+}
+
+.list-group-item::before {
+    content: "●";
+    color: #666666;
+    margin-right: 0.75rem;
 }
