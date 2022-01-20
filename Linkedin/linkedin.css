@@ -4,7 +4,7 @@ input {
     border-radius: 10px;
 }
 
-i {
+.menu-icon {
     color: grey;
     width: 50px;
     font-size: 22px;
@@ -25,6 +25,7 @@ a {
 
 .share-post-icon {
     width: 30px;
+    font-size: 22px;
 }
 
 .share-post-input {
@@ -37,4 +38,8 @@ a {
     content: "●";
     color: #666666;
     margin-right: 0.75rem;
+}
+
+.post-interaction-li {
+    flex-grow: 1;
 }
