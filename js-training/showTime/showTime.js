@@ -4,6 +4,8 @@ document.getElementById("name").innerHTML = nameEntered;
 
 //Show time onload
 function showTime() {
-
-    document.getElementById('time').innerHTML = new Date();
+    setTimeout(() => {
+        document.getElementById('time').innerHTML = new Date();
+        showTime();
+    }, 1000);
 }
