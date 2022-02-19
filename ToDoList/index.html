@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="alertMessage">
+
+    </div>
+    <nav class="navbar navbar-light p-3 mb-2 bg-warning text-dark justify-content-between progress-bar progress-bar-striped">
+        <a class="navbar-brand">My to do list</a>
+        <form class="form-inline" id="toDoForm">
+            <input id="toDoInput" class="form-control mr-sm-2" type="search" placeholder="what are you doing today?" aria-label="Search" style="width: 400px">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Add</button>
+        </form>
+    </nav>
+    <div>
+        <ul id="toDoList" class="list-group">
+        </ul>
+    </div>
+
+    <script src="todolist.js"></script>
+</body>
+
+</html>
