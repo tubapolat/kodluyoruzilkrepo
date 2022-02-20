@@ -19,17 +19,26 @@ const addToDoList = (toDoInput) => {
         let li = document.createElement('li');
         li.classList.add("list-group-item", "list-group-item-success")
         li.id = index;
-        li.innerHTML = `${toDoInput}`
-        let span = document.createElement("button");
-        span.classList.add("badge", "bg-primary", "rounded-pill");
-        span.style.float = "right";
-        span.innerHTML = 'x';
-        span.onclick = () => {
-            toDoArray.splice(li.id, 1);
-            renderHTML();
+        index++;
+
+        li.innerHTML = toDoInput
+        let button = document.createElement("button");
+        button.classList.add("badge", "bg-primary", "rounded-pill");
+        button.style.float = "right";
+        button.innerHTML = 'x';
+        button.onclick = () => {
+            //find toDo item index to delete
+            const toDoDeleteIndex = toDoArray.findIndex(toDo => toDo.id === li.id);
+            if (toDoDeleteIndex > -1) {
+                //delete item by index
+                toDoArray.splice(toDoDeleteIndex, 1);
+                renderHTML();
+            }
+
         }
-        li.append(span);
+        li.append(button);
         li.onclick = () => {
+            // find to Do item to change style
             const foundLi = toDoArray.find(toDo => toDo.id === li.id);
             if (foundLi) {
                 foundLi.classList = "list-group-item list-group-item-danger";
@@ -37,7 +46,6 @@ const addToDoList = (toDoInput) => {
             }
 
         }
-        index++;
         toDoArray.push(li);
         renderHTML();
         alertMessage.innerHTML = ''
